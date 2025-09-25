@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phiếu đăng ký tham gia chương trình khuyến mãi</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+
+<body>
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    <table class="table2">
+        <tr>
+            <td><label for="username">Họ và tên:</label> </td>
+            <td><input type="text" id="username" name="username" class="form-input" style="width: 400px;"></td>
+
+        </tr>
+        <tr>
+            <td><label for="address">Địa chỉ:</label> </td>
+            <td><input type="text" id="address" name="address" class="form-input" style="width: 325px;"></td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="sdt">Số điện thoại:</label> </td>
+            <td><input type="number" id="sdt" name="sdt" class="form-input" style="width: 200px;"></td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="gioitinh">Phái:</label> </td>
+            <td>
+                <div>
+                    <input type="radio" name="gioitinh" value="nam" class="thutle"> <span style="color: red">Nam</span>
+                    <input type="radio" name="gioitinh" value="nu" class="thutle"><span style="color: red">Nữ</span>
+                </div>
+
+
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="nghenghiep">Nghề nghiệp:</label> </td>
+            <td>
+                <select id="nghenghiep" name="nghenghiep" class="thutle">
+                    <option value="Giáo viên">Giáo viên</option>
+                    <option value="Công nhân">Công nhân</option>
+                    <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+                    <option value="Kế toán">Kế toán</option>
+                </select>
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="sanphan">Sản phẩm tham gia:</label> </td>
+            <td>
+                <select id="sanpham" name="sanpham" class="thutle" multiple size="4">
+                    <option value="Kem đánh răng">Kem đánh răng</option>
+                    <option value="Bột giặt">Bột giặt</option>
+                    <option value="Dầu gội đầu">Dầu gội đầu</option>
+                    <option value="Sữa tắm">Sữa tắm</option>
+                    <option value="Kem trộn">Kem trộn</option>
+                </select>
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="soluong">Số người dự đoán tham gia:</label> </td>
+            <td><input type="number" id="soluong" name="soluong" class="form-input" style="width: 150px;"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit"><b>Đồng ý</b></button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="ok">Bạn đã đăng ký thành công!!!</div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

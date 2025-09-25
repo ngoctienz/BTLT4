@@ -1,0 +1,41 @@
+.menu-ngang {
+    width: 500px;
+    list-style-type: none;
+    padding: 0;
+    background-color: orange;
+    display: flex;
+}
+
+.menu-ngang li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.menu-ngang li:not(:last-child) {
+    border-right: 3px solid #E5E5E5;
+}
+
+.menu-doc {
+    width: 250px;
+    list-style-type: none;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+.menu-doc li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.menu-doc li:not(:last-child) {
+    border-bottom: 3px solid white;
+}
+
+.title {
+    background-color: orange;
+    padding: 15px 25px;
+}

@@ -1,8 +1,12 @@
 h1 {
     text-align: center;
     color: red;
-} a:link{
+}
+
+a:link {
     color: blue;
-} .cangiua {
+}
+
+.cangiua {
     text-align: center;
 }

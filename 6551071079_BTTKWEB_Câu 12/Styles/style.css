@@ -1,0 +1,81 @@
+img {
+    width: 100%;
+}
+
+.menu-ngang {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    background-color: orange;
+    display: flex;
+}
+
+.menu-ngang li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.menu-ngang li:not(:last-child) {
+    border-right: 3px solid #E5E5E5;
+}
+
+.menu-doc {
+    width: 175px;
+    list-style-type: none;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-weight: bold;
+}
+
+.menu-doc li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.menu-doc li:not(:last-child) {
+    border-bottom: 3px solid white;
+}
+
+.title {
+    background-color: orange;
+    padding: 5px 15px;
+}
+
+.chia3 {
+    width: 33%;
+}
+
+table {
+    width: 100%;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.chia4 {
+    width: 25%;
+}
+
+#ten {
+    font-weight: bold;
+    color: black;
+}
+
+#gia {
+    font-weight: bold;
+    color: red;
+}
+
+.ending {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+    text-align: center;
+    padding: 5px 5px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Đăng ký du lịch</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+
+<body>
+    <h1>Đăng ký du lịch</h1>
+    <table class="table2">
+        <tr>
+            <td><label for="username">Họ và tên:</label> </td>
+            <td><input type="text" id="username" name="username" class="form-input" style="width: 400px;"></td>
+
+        </tr>
+        <tr>
+            <td><label for="address">Địa chỉ:</label> </td>
+            <td><input type="text" id="address" name="address" class="form-input" style="width: 325px;"></td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="sdt">Số điện thoại:</label> </td>
+            <td><input type="number" id="sdt" name="sdt" class="form-input" style="width: 200px;"></td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="vietnam">Khách Việt Nam:</label> </td>
+            <td>
+                <div>
+                    <input type="checkbox" name="gioitinh" value="nam" class="thutle">
+                </div>
+
+
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="tour">Chọn Tour:</label> </td>
+            <td>
+                <select id="tour" name="tour" class="thutle">
+                    <option value="Buôn Ma Thuột - Gia Lai - Kon Tum">Buôn Ma Thuột - Gia Lai - Kon Tum</option>
+                    <option value="Đà Lạt - Nha Trang">Đà Lạt - Nha Trang</option>
+                    <option value="Phú Quốc - Nam Du">Phú Quốc - Nam Du</option>
+                    <option value="Huế - Đà Nẵng - Hội An">Huế - Đà Nẵng - Hội An</option>
+                    <option value="Hà Nội - Hạ Long - Sapa">Hà Nội - Hạ Long - Sapa</option>
+                    <option value="Cần Thơ - Châu Đốc - Hà Tiên">Cần Thơ - Châu Đốc - Hà Tiên</option>
+                    <option value="Mũi Né - Phan Thiết">Mũi Né - Phan Thiết</option>
+                    <option value="Ninh Bình - Tràng An - Tam Cốc">Ninh Bình - Tràng An - Tam Cốc</option>
+                    <option value="Quảng Bình - Phong Nha - Kẻ Bàng">Quảng Bình - Phong Nha - Kẻ Bàng</option>
+                    <option value="Cà Mau - Bạc Liêu - Sóc Trăng">Cà Mau - Bạc Liêu - Sóc Trăng</option>
+
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="phuongtien">Phương tiện:</label></td>
+            <td>
+                <div>
+                    <input type="radio" name="phuongtien" value="xe-may" class="thutle"> Xe máy
+                    <input type="radio" name="phuongtien" value="oto" class="thutle"> Ô tô
+                    <input type="radio" name="phuongtien" value="may-bay" class="thutle"> Máy bay
+                </div>
+            </td>
+        </tr>
+        <td colspan="2">
+            <fieldset>
+                <legend style="color: red;"><i>Số lượng đoàn khách</i></legend>
+                <span>
+                    <label for="lon">Người lớn:</label>
+                    <input type="number" id="sdt" name="sdt" class="form-input" style="width: 100px;">
+                    <label for="nho">Trẻ em:</label>
+                    <input type="number" id="sdt" name="sdt" class="form-input" style="width: 100px;">
+
+                </span>
+
+            </fieldset>
+
+        </td>
+        </tr>
+        <tr>
+            <td><label for="ghichu">Ghi chú thêm:</label></td>
+            <td>
+                <select id="ghichu" name="ghichu" class="thutle" multiple size="2">
+                    <option value="tre-em-duoi-6">Có 2 trẻ em dưới 6 tuổi</option>
+                    <option value="nguoi-an-chay">Có 2 người ăn chay</option>
+                    <option value="them-giuong">Cần thêm giường phụ</option>
+                    <option value="di-chuyen-rieng">Yêu cầu di chuyển riêng</option>
+                    <option value="huong-dan-vien">Cần hướng dẫn viên tiếng Anh</option>
+                </select>
+            </td>
+        </tr>
+
+
+        <td colspan="2" style="text-align: center;">
+            <button type="submit"><b>Đồng ý</b></button>
+        </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="ok">Bạn đã đăng ký thành công!!!</div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

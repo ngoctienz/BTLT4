@@ -1,0 +1,40 @@
+.img01 {
+    width: 100%;
+} .menu-ngang {
+    width:100%;
+    list-style-type: none;
+    padding: 0;
+    background-color: #473E32;
+    display: flex;
+}.menu-ngang li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}.menu-ngang li:not(:last-child) {
+    border-right: 0px solid #E5E5E5;
+} body {
+    background-color: #2C2417;
+} .boxx {
+    width:20%;
+} table {
+    width: 100%;
+    background-color: #474030;
+} .box1 {
+    font-size: 15px;
+    width:20%;
+    font-weight: bold;
+    color: white;
+} .box_img {
+    width:100%;
+} td {
+    color: white;
+} .xemthem {
+    text-align: right;
+    color: red;
+    text-decoration: none;
+} .ending {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}

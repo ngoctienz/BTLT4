@@ -1,0 +1,75 @@
+body {
+    font-family: Arial;
+}
+
+table {
+    width: 750px;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 0.25rem;
+}
+
+th,
+td {
+    border: 3px solid black;
+    font-size: 20px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+}
+
+.form-input {
+    height: 30px;
+    border-radius: 0.25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+.table2 {
+    width: 750px;
+    height: 100x;
+    background-color: #DEFAD9;
+    /* } .table2 td{
+    border: none; */
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 35%;
+    height: 35px;
+    background-color: #CBCBC6;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.indent {
+    padding-left: 10px;
+}
+
+.thutle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+#ok {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+label {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
