@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: red;
+}  body {
+    font-family: Arial;
+    color: #000000;
+    margin: 24px;
+    text-align: center;
+} th, td {
+    border: 3px solid orange;
+    padding: 8px 14px;
+}.collapse {
+    border-collapse: collapse;
+} .tieude {
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+} .maudo {
+    text-align: center;
+    color: red;
+} .cantrai {
+    text-align: left;
+} table {
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+th, td {
+    border: 3px solid black;
+    padding: auto;
+}.collapse {
+    border-collapse: collapse;
+} .text2 {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FDBBBC;
+} .text1 {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: red;
+} img {
+    width: 100px;
+    padding-left: 25%;
+    padding-right: 25%;
+} .collapse2 {
+    border-collapse: collapse;
+    border-top: 0cap;
+}

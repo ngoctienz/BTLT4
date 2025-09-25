@@ -1,0 +1,17 @@
+    h1{ 
+    text-align: center;
+    color: red;
+} h2 {
+    color: blue;
+}.a01 {
+    background-color: #FECFFD;
+    text-align: center;
+    font-size: 30px;
+    color: #FA379A;
+} .dv1 {
+    background-color: #FFFECD;
+    text-align: center;
+    font-style: italic;
+}  hr {
+    width: 50%;
+}
